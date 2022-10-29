@@ -24,15 +24,24 @@ nav{
     position: sticky;
     top: 0px;
     bottom: 0px;
-    border-top: solid 0.15em #777;
-    border-bottom: solid 0.15em #777;
     color: #777;
     background: white;
 }
 
 nav li{
-    display: inline;
+    list-style-type: none;
+    margin: 0;
     padding: 5px;
+    display: inline-block;
+    color: #777;
+
+}
+
+nav ul {
+    border-top: solid 1px #777;
+    border-bottom: solid 1px #777;
+    padding: 10px;
+    color:#777;
 }
 
 a {
@@ -46,11 +55,11 @@ a:link{
 
 .newspaper-container{
     width: 700px;
-    border-radius: 40px;
+    border-radius: 10px;
     box-shadow: 0.1em 0.1em 10px #ddd;
     padding: 1.5em;
-    background-color: white;
-    margin: auto;
+    background: white;
+    margin: 3em auto;
 }
 
 .date{
@@ -70,4 +79,9 @@ h5{
 img{
     width: 100%;
     height: auto;
+}
+
+main{
+    border-bottom: solid 1px #777;
+    padding: 10px;
 }
