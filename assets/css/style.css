@@ -21,9 +21,13 @@ li{
 }
 
 nav{
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
     border-top: solid 0.15em #777;
     border-bottom: solid 0.15em #777;
     color: #777;
+    background: white;
 }
 
 nav li{
